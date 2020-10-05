@@ -1,0 +1,13 @@
+{
+  "name": "@some/lib-a",
+  "version": "1.0.0",
+  "main": "./-/index.js",
+  "types": "./-/index.d.ts",
+  "exports": {
+    ".": "./-/index.js",
+    "./": "./-/"
+  },
+  "scripts": {
+    "build": "tsc --build && webpack"
+  }
+}

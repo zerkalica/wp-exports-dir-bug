@@ -8,7 +8,8 @@
     "./": "./-/"
   },
   "scripts": {
-    "build": "tsc --build && webpack-cli"
+    "build": "tsc --build && webpack-cli",
+    "build:wp": "webpack-cli"
   },
   "dependencies": {
     "@some/lib-a": "^1.0.0"
